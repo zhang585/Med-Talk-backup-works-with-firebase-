@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1802A29E1F0B062700BF77EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1802A29D1F0B062700BF77EE /* GoogleService-Info.plist */; };
+		1835AE141EFB6AEB00FC525B /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835AE131EFB6AEB00FC525B /* DetailVC.swift */; };
+		1835AE161EFEF90000FC525B /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835AE151EFEF90000FC525B /* FavoritesVC.swift */; };
+		18BBA77C1EF8DFCF00076E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA77B1EF8DFCF00076E16 /* AppDelegate.swift */; };
+		18BBA7811EF8DFCF00076E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BBA77F1EF8DFCF00076E16 /* Main.storyboard */; };
+		18BBA7841EF8DFCF00076E16 /* Med_Talk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA7821EF8DFCF00076E16 /* Med_Talk.xcdatamodeld */; };
+		18BBA7861EF8DFCF00076E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BBA7851EF8DFCF00076E16 /* Assets.xcassets */; };
+		18BBA7891EF8DFCF00076E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BBA7871EF8DFCF00076E16 /* LaunchScreen.storyboard */; };
+		18BBA7941EF8DFCF00076E16 /* Med_TalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA7931EF8DFCF00076E16 /* Med_TalkTests.swift */; };
+		18BBA79F1EF8DFCF00076E16 /* Med_TalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA79E1EF8DFCF00076E16 /* Med_TalkUITests.swift */; };
+		18BBA7AD1EF9EBC000076E16 /* MasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA7AC1EF9EBC000076E16 /* MasterVC.swift */; };
+		18BBA7AF1EF9EC1400076E16 /* Drugs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA7AE1EF9EC1400076E16 /* Drugs.swift */; };
+		18BBA7B31EFA07E200076E16 /* drugCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA7B21EFA07E200076E16 /* drugCell.swift */; };
+		40BFD7715061D2B5DCF40942 /* Pods_Med_TalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3E9EB0DF5FEFD1E4629174 /* Pods_Med_TalkTests.framework */; };
+		AEF86368BA9A25DA1574FC60 /* Pods_Med_TalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A7FA3302536E188B172ADA /* Pods_Med_TalkUITests.framework */; };
+		C9B6488F16B9503A5F3DB04D /* Pods_Med_Talk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0084F0E91A97E8334CA63A6 /* Pods_Med_Talk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18BBA7901EF8DFCF00076E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BBA7701EF8DFCF00076E16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BBA7771EF8DFCF00076E16;
+			remoteInfo = "Med Talk";
+		};
+		18BBA79B1EF8DFCF00076E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BBA7701EF8DFCF00076E16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BBA7771EF8DFCF00076E16;
+			remoteInfo = "Med Talk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14EC7B9FD20F7034E7E31E78 /* Pods-Med TalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Med TalkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Med TalkUITests/Pods-Med TalkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1802A29D1F0B062700BF77EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1835AE131EFB6AEB00FC525B /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		1835AE151EFEF90000FC525B /* FavoritesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
+		18BBA7781EF8DFCF00076E16 /* Med Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Med Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BBA77B1EF8DFCF00076E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18BBA7801EF8DFCF00076E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18BBA7831EF8DFCF00076E16 /* Med_Talk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Med_Talk.xcdatamodel; sourceTree = "<group>"; };
+		18BBA7851EF8DFCF00076E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18BBA7881EF8DFCF00076E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18BBA78A1EF8DFCF00076E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BBA78F1EF8DFCF00076E16 /* Med TalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Med TalkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BBA7931EF8DFCF00076E16 /* Med_TalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Med_TalkTests.swift; sourceTree = "<group>"; };
+		18BBA7951EF8DFCF00076E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BBA79A1EF8DFCF00076E16 /* Med TalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Med TalkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BBA79E1EF8DFCF00076E16 /* Med_TalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Med_TalkUITests.swift; sourceTree = "<group>"; };
+		18BBA7A01EF8DFCF00076E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BBA7AC1EF9EBC000076E16 /* MasterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterVC.swift; sourceTree = "<group>"; };
+		18BBA7AE1EF9EC1400076E16 /* Drugs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drugs.swift; sourceTree = "<group>"; };
+		18BBA7B21EFA07E200076E16 /* drugCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drugCell.swift; sourceTree = "<group>"; };
+		18F3A9B41F244A050038C185 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../../../MyPlayground.playground; sourceTree = "<group>"; };
+		32FD4A8220C2213D8C97DE51 /* Pods-Med Talk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Med Talk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Med Talk/Pods-Med Talk.release.xcconfig"; sourceTree = "<group>"; };
+		88A7FA3302536E188B172ADA /* Pods_Med_TalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Med_TalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E58029AC8B9FAE71B1ED58 /* Pods-Med TalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Med TalkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Med TalkUITests/Pods-Med TalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE3E9EB0DF5FEFD1E4629174 /* Pods_Med_TalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Med_TalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25349625A9152A7422626F9 /* Pods-Med Talk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Med Talk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Med Talk/Pods-Med Talk.debug.xcconfig"; sourceTree = "<group>"; };
+		D611CCDBA5B68B2BB5A067DA /* Pods-Med TalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Med TalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Med TalkTests/Pods-Med TalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		E0084F0E91A97E8334CA63A6 /* Pods_Med_Talk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Med_Talk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB88E85D2B92703D9FEEE915 /* Pods-Med TalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Med TalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Med TalkTests/Pods-Med TalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BBA7751EF8DFCF00076E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B6488F16B9503A5F3DB04D /* Pods_Med_Talk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BBA78C1EF8DFCF00076E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BFD7715061D2B5DCF40942 /* Pods_Med_TalkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BBA7971EF8DFCF00076E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF86368BA9A25DA1574FC60 /* Pods_Med_TalkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BBA76F1EF8DFCF00076E16 = {
+			isa = PBXGroup;
+			children = (
+				18BBA77A1EF8DFCF00076E16 /* Med Talk */,
+				18BBA7921EF8DFCF00076E16 /* Med TalkTests */,
+				18BBA79D1EF8DFCF00076E16 /* Med TalkUITests */,
+				18BBA7791EF8DFCF00076E16 /* Products */,
+				A6989E290AE6B25CB795E9C7 /* Pods */,
+				D068D7F1AC32BC351197CA9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18BBA7791EF8DFCF00076E16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BBA7781EF8DFCF00076E16 /* Med Talk.app */,
+				18BBA78F1EF8DFCF00076E16 /* Med TalkTests.xctest */,
+				18BBA79A1EF8DFCF00076E16 /* Med TalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BBA77A1EF8DFCF00076E16 /* Med Talk */ = {
+			isa = PBXGroup;
+			children = (
+				18BBA77B1EF8DFCF00076E16 /* AppDelegate.swift */,
+				18BBA7AC1EF9EBC000076E16 /* MasterVC.swift */,
+				18BBA7AE1EF9EC1400076E16 /* Drugs.swift */,
+				18BBA7B21EFA07E200076E16 /* drugCell.swift */,
+				1835AE131EFB6AEB00FC525B /* DetailVC.swift */,
+				18F3A9B41F244A050038C185 /* MyPlayground.playground */,
+				1835AE151EFEF90000FC525B /* FavoritesVC.swift */,
+				18BBA77F1EF8DFCF00076E16 /* Main.storyboard */,
+				18BBA7851EF8DFCF00076E16 /* Assets.xcassets */,
+				18BBA7871EF8DFCF00076E16 /* LaunchScreen.storyboard */,
+				18BBA78A1EF8DFCF00076E16 /* Info.plist */,
+				1802A29D1F0B062700BF77EE /* GoogleService-Info.plist */,
+				18BBA7821EF8DFCF00076E16 /* Med_Talk.xcdatamodeld */,
+			);
+			path = "Med Talk";
+			sourceTree = "<group>";
+		};
+		18BBA7921EF8DFCF00076E16 /* Med TalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				18BBA7931EF8DFCF00076E16 /* Med_TalkTests.swift */,
+				18BBA7951EF8DFCF00076E16 /* Info.plist */,
+			);
+			path = "Med TalkTests";
+			sourceTree = "<group>";
+		};
+		18BBA79D1EF8DFCF00076E16 /* Med TalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18BBA79E1EF8DFCF00076E16 /* Med_TalkUITests.swift */,
+				18BBA7A01EF8DFCF00076E16 /* Info.plist */,
+			);
+			path = "Med TalkUITests";
+			sourceTree = "<group>";
+		};
+		A6989E290AE6B25CB795E9C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D25349625A9152A7422626F9 /* Pods-Med Talk.debug.xcconfig */,
+				32FD4A8220C2213D8C97DE51 /* Pods-Med Talk.release.xcconfig */,
+				FB88E85D2B92703D9FEEE915 /* Pods-Med TalkTests.debug.xcconfig */,
+				D611CCDBA5B68B2BB5A067DA /* Pods-Med TalkTests.release.xcconfig */,
+				88E58029AC8B9FAE71B1ED58 /* Pods-Med TalkUITests.debug.xcconfig */,
+				14EC7B9FD20F7034E7E31E78 /* Pods-Med TalkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D068D7F1AC32BC351197CA9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0084F0E91A97E8334CA63A6 /* Pods_Med_Talk.framework */,
+				BE3E9EB0DF5FEFD1E4629174 /* Pods_Med_TalkTests.framework */,
+				88A7FA3302536E188B172ADA /* Pods_Med_TalkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BBA7771EF8DFCF00076E16 /* Med Talk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BBA7A31EF8DFCF00076E16 /* Build configuration list for PBXNativeTarget "Med Talk" */;
+			buildPhases = (
+				7D8CEFB754EB18BCFFD02091 /* [CP] Check Pods Manifest.lock */,
+				18BBA7741EF8DFCF00076E16 /* Sources */,
+				18BBA7751EF8DFCF00076E16 /* Frameworks */,
+				18BBA7761EF8DFCF00076E16 /* Resources */,
+				B998ABDD33A5D3053293610E /* [CP] Embed Pods Frameworks */,
+				0A14ECAB8B14B1654A1A407E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Med Talk";
+			productName = "Med Talk";
+			productReference = 18BBA7781EF8DFCF00076E16 /* Med Talk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18BBA78E1EF8DFCF00076E16 /* Med TalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BBA7A61EF8DFCF00076E16 /* Build configuration list for PBXNativeTarget "Med TalkTests" */;
+			buildPhases = (
+				8BC79E6EE0F5FB71DF632643 /* [CP] Check Pods Manifest.lock */,
+				18BBA78B1EF8DFCF00076E16 /* Sources */,
+				18BBA78C1EF8DFCF00076E16 /* Frameworks */,
+				18BBA78D1EF8DFCF00076E16 /* Resources */,
+				F612B0438FB26C63067663EC /* [CP] Embed Pods Frameworks */,
+				487166EF05A6BD5483012316 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BBA7911EF8DFCF00076E16 /* PBXTargetDependency */,
+			);
+			name = "Med TalkTests";
+			productName = "Med TalkTests";
+			productReference = 18BBA78F1EF8DFCF00076E16 /* Med TalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18BBA7991EF8DFCF00076E16 /* Med TalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BBA7A91EF8DFCF00076E16 /* Build configuration list for PBXNativeTarget "Med TalkUITests" */;
+			buildPhases = (
+				8AD46A4350521A70317C06E5 /* [CP] Check Pods Manifest.lock */,
+				18BBA7961EF8DFCF00076E16 /* Sources */,
+				18BBA7971EF8DFCF00076E16 /* Frameworks */,
+				18BBA7981EF8DFCF00076E16 /* Resources */,
+				B691404616D0AE264E8AEEDA /* [CP] Embed Pods Frameworks */,
+				CDF065B322997653F796BE8A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BBA79C1EF8DFCF00076E16 /* PBXTargetDependency */,
+			);
+			name = "Med TalkUITests";
+			productName = "Med TalkUITests";
+			productReference = 18BBA79A1EF8DFCF00076E16 /* Med TalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BBA7701EF8DFCF00076E16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sandy Zhang";
+				TargetAttributes = {
+					18BBA7771EF8DFCF00076E16 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9NMHRJPP6N;
+						ProvisioningStyle = Automatic;
+					};
+					18BBA78E1EF8DFCF00076E16 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9NMHRJPP6N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18BBA7771EF8DFCF00076E16;
+					};
+					18BBA7991EF8DFCF00076E16 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9NMHRJPP6N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18BBA7771EF8DFCF00076E16;
+					};
+				};
+			};
+			buildConfigurationList = 18BBA7731EF8DFCF00076E16 /* Build configuration list for PBXProject "Med Talk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18BBA76F1EF8DFCF00076E16;
+			productRefGroup = 18BBA7791EF8DFCF00076E16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BBA7771EF8DFCF00076E16 /* Med Talk */,
+				18BBA78E1EF8DFCF00076E16 /* Med TalkTests */,
+				18BBA7991EF8DFCF00076E16 /* Med TalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BBA7761EF8DFCF00076E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BBA7891EF8DFCF00076E16 /* LaunchScreen.storyboard in Resources */,
+				1802A29E1F0B062700BF77EE /* GoogleService-Info.plist in Resources */,
+				18BBA7861EF8DFCF00076E16 /* Assets.xcassets in Resources */,
+				18BBA7811EF8DFCF00076E16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BBA78D1EF8DFCF00076E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BBA7981EF8DFCF00076E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A14ECAB8B14B1654A1A407E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Med Talk/Pods-Med Talk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		487166EF05A6BD5483012316 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Med TalkTests/Pods-Med TalkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D8CEFB754EB18BCFFD02091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8AD46A4350521A70317C06E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8BC79E6EE0F5FB71DF632643 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B691404616D0AE264E8AEEDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Med TalkUITests/Pods-Med TalkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B998ABDD33A5D3053293610E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Med Talk/Pods-Med Talk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDF065B322997653F796BE8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Med TalkUITests/Pods-Med TalkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F612B0438FB26C63067663EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Med TalkTests/Pods-Med TalkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BBA7741EF8DFCF00076E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BBA77C1EF8DFCF00076E16 /* AppDelegate.swift in Sources */,
+				18BBA7B31EFA07E200076E16 /* drugCell.swift in Sources */,
+				18BBA7AD1EF9EBC000076E16 /* MasterVC.swift in Sources */,
+				18BBA7841EF8DFCF00076E16 /* Med_Talk.xcdatamodeld in Sources */,
+				1835AE161EFEF90000FC525B /* FavoritesVC.swift in Sources */,
+				18BBA7AF1EF9EC1400076E16 /* Drugs.swift in Sources */,
+				1835AE141EFB6AEB00FC525B /* DetailVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BBA78B1EF8DFCF00076E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BBA7941EF8DFCF00076E16 /* Med_TalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BBA7961EF8DFCF00076E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BBA79F1EF8DFCF00076E16 /* Med_TalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18BBA7911EF8DFCF00076E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BBA7771EF8DFCF00076E16 /* Med Talk */;
+			targetProxy = 18BBA7901EF8DFCF00076E16 /* PBXContainerItemProxy */;
+		};
+		18BBA79C1EF8DFCF00076E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BBA7771EF8DFCF00076E16 /* Med Talk */;
+			targetProxy = 18BBA79B1EF8DFCF00076E16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18BBA77F1EF8DFCF00076E16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BBA7801EF8DFCF00076E16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18BBA7871EF8DFCF00076E16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BBA7881EF8DFCF00076E16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BBA7A11EF8DFCF00076E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18BBA7A21EF8DFCF00076E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BBA7A41EF8DFCF00076E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D25349625A9152A7422626F9 /* Pods-Med Talk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9NMHRJPP6N;
+				INFOPLIST_FILE = "Med Talk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangapps.Med-Talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18BBA7A51EF8DFCF00076E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32FD4A8220C2213D8C97DE51 /* Pods-Med Talk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9NMHRJPP6N;
+				INFOPLIST_FILE = "Med Talk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangapps.Med-Talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		18BBA7A71EF8DFCF00076E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB88E85D2B92703D9FEEE915 /* Pods-Med TalkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9NMHRJPP6N;
+				INFOPLIST_FILE = "Med TalkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangapps.Med-TalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Med Talk.app/Med Talk";
+			};
+			name = Debug;
+		};
+		18BBA7A81EF8DFCF00076E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D611CCDBA5B68B2BB5A067DA /* Pods-Med TalkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9NMHRJPP6N;
+				INFOPLIST_FILE = "Med TalkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangapps.Med-TalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Med Talk.app/Med Talk";
+			};
+			name = Release;
+		};
+		18BBA7AA1EF8DFCF00076E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E58029AC8B9FAE71B1ED58 /* Pods-Med TalkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9NMHRJPP6N;
+				INFOPLIST_FILE = "Med TalkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangapps.Med-TalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Med Talk";
+			};
+			name = Debug;
+		};
+		18BBA7AB1EF8DFCF00076E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14EC7B9FD20F7034E7E31E78 /* Pods-Med TalkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9NMHRJPP6N;
+				INFOPLIST_FILE = "Med TalkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhangapps.Med-TalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Med Talk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BBA7731EF8DFCF00076E16 /* Build configuration list for PBXProject "Med Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BBA7A11EF8DFCF00076E16 /* Debug */,
+				18BBA7A21EF8DFCF00076E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BBA7A31EF8DFCF00076E16 /* Build configuration list for PBXNativeTarget "Med Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BBA7A41EF8DFCF00076E16 /* Debug */,
+				18BBA7A51EF8DFCF00076E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BBA7A61EF8DFCF00076E16 /* Build configuration list for PBXNativeTarget "Med TalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BBA7A71EF8DFCF00076E16 /* Debug */,
+				18BBA7A81EF8DFCF00076E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BBA7A91EF8DFCF00076E16 /* Build configuration list for PBXNativeTarget "Med TalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BBA7AA1EF8DFCF00076E16 /* Debug */,
+				18BBA7AB1EF8DFCF00076E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18BBA7821EF8DFCF00076E16 /* Med_Talk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18BBA7831EF8DFCF00076E16 /* Med_Talk.xcdatamodel */,
+			);
+			currentVersion = 18BBA7831EF8DFCF00076E16 /* Med_Talk.xcdatamodel */;
+			path = Med_Talk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18BBA7701EF8DFCF00076E16 /* Project object */;
+}
